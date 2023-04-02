@@ -1,0 +1,11 @@
+{
+  "name": "pekui",
+  "packageManager": "yarn@3.5.0",
+  "workspaces": [
+    "packages/*",
+    "sites/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
