@@ -1,5 +1,12 @@
 {
   "name": "@pekui/pekui-core",
+  "author": "Milan Pekovic <milanpekovic89@gmail.com",
+  "description": "PekUI - simple React component library",
+  "keywords": [
+    "component library",
+    "react component library",
+    "components"
+  ],
   "private": true,
   "version": "0.0.0",
   "type": "module",
