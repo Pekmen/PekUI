@@ -19,6 +19,7 @@
     "*.json": "npx prettier --write"
   },
   "devDependencies": {
+    "eslint": "^8.38.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.1",
     "pinst": "^3.0.0",
