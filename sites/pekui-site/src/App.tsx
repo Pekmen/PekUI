@@ -3,7 +3,7 @@ import { TestComponent } from '@pekui/pekui-core';
 function App() {
   return (
     <div>
-      PEKUI SITE
+      PEKUI SITE DOCUMENTATION
       <TestComponent />
     </div>
   );
