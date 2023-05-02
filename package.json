@@ -2,6 +2,7 @@
   "name": "pekui",
   "packageManager": "yarn@3.5.0",
   "author": "Milan Pekovic <milanpekovic89@gmail.com",
+  "homepage": "https://pekmen.github.io/PekUI/",
   "workspaces": [
     "packages/*",
     "sites/*"

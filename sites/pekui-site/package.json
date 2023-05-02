@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "type": "module",
   "author": "Milan Pekovic <milanpekovic89@gmail.com",
-  "homepage": "https://pekmen.github.io/PekUI/",
   "description": "PekUI documentation site",
   "scripts": {
     "dev": "vite",
