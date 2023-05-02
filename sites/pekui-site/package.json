@@ -1,6 +1,6 @@
 {
   "name": "pekui-site",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "author": "Milan Pekovic <milanpekovic89@gmail.com",
