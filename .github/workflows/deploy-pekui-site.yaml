@@ -1,0 +1,38 @@
+name: Build and deploy PekUI website
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20.0.0
+
+      - name: Install yarn
+        run: yarn set version 3.5.0
+
+      - name: Install
+        run: yarn install
+
+      - name: Build pekui-core
+        run: |
+          cd packages/pekui-core 
+          yarn build
+
+      - name: Build pekui-site
+        run: |
+          cd sites/pekui-site 
+          yarn build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: sites/pekui-site/dist
