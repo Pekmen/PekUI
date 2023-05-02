@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - "sites/pekui-site**"
+      - 'sites/pekui-site**'
 
 defaults:
   run:
