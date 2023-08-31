@@ -1,43 +1,43 @@
 {
-  "name": "@pekui/pekui-core",
-  "author": "Milan Pekovic <milanpekovic89@gmail.com",
-  "description": "PekUI - simple React component library",
-  "keywords": [
-    "component library",
-    "react component library",
-    "components"
-  ],
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.5.7",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.4",
-    "typescript": "^5.2.2",
-    "vite": "^4.4.9",
-    "vite-plugin-dts": "^3.5.3"
-  },
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/pekui-core.umd.js",
-  "module": "./dist/pekui-core.es.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/pekui-core.es.js",
-      "require": "./dist/pekui-core.umd.js"
+    "name": "@pekui/pekui-core",
+    "author": "Milan Pekovic <milanpekovic89@gmail.com",
+    "description": "PekUI - simple React component library",
+    "keywords": [
+        "component library",
+        "react component library",
+        "components"
+    ],
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.5.7",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "@vitejs/plugin-react": "^4.0.4",
+        "typescript": "^5.2.2",
+        "vite": "^4.4.9",
+        "vite-plugin-dts": "^3.5.3"
+    },
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/pekui-core.umd.js",
+    "module": "./dist/pekui-core.es.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/pekui-core.es.js",
+            "require": "./dist/pekui-core.umd.js"
+        }
     }
-  }
 }

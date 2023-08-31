@@ -1,24 +1,24 @@
 {
-  "name": "pekui-site",
-  "version": "0.0.0",
-  "type": "module",
-  "author": "Milan Pekovic <milanpekovic89@gmail.com",
-  "description": "PekUI documentation site",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@pekui/pekui-core": "workspace:*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.4",
-    "typescript": "^5.2.2",
-    "vite": "^4.4.9"
-  }
+    "name": "pekui-site",
+    "version": "0.0.0",
+    "type": "module",
+    "author": "Milan Pekovic <milanpekovic89@gmail.com",
+    "description": "PekUI documentation site",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@pekui/pekui-core": "workspace:*",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "@vitejs/plugin-react": "^4.0.4",
+        "typescript": "^5.2.2",
+        "vite": "^4.4.9"
+    }
 }

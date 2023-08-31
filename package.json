@@ -1,32 +1,32 @@
 {
-  "name": "pekui",
-  "packageManager": "yarn@3.6.3",
-  "author": "Milan Pekovic <milanpekovic89@gmail.com",
-  "workspaces": [
-    "packages/*",
-    "sites/*"
-  ],
-  "scripts": {
-    "postinstall": "husky install",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
-  },
-  "lint-staged": {
-    "**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix",
-      "prettier --write"
+    "name": "pekui",
+    "packageManager": "yarn@3.6.3",
+    "author": "Milan Pekovic <milanpekovic89@gmail.com",
+    "workspaces": [
+        "packages/*",
+        "sites/*"
     ],
-    "*.json": "npx prettier --write"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0",
-    "eslint": "^8.48.0",
-    "eslint-plugin-react": "^7.33.2",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "pinst": "^3.0.0",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2"
-  }
+    "scripts": {
+        "postinstall": "husky install",
+        "prepack": "pinst --disable",
+        "postpack": "pinst --enable"
+    },
+    "lint-staged": {
+        "**/*.{js,ts,jsx,tsx}": [
+            "eslint --fix",
+            "prettier --write"
+        ],
+        "*.json": "npx prettier --write"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.5.0",
+        "@typescript-eslint/parser": "^6.5.0",
+        "eslint": "^8.48.0",
+        "eslint-plugin-react": "^7.33.2",
+        "husky": "^8.0.3",
+        "lint-staged": "^14.0.1",
+        "pinst": "^3.0.0",
+        "prettier": "^3.0.3",
+        "typescript": "^5.2.2"
+    }
 }
